@@ -4,56 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" type="text/css" />
     <title>Tea Website</title>
   </head>
   <body>
     <header>
       <a href="index.html"><h1>Leafy Lane</h1></a>
     </header>
+    <hr />
+
     <nav>
-      <a href="pages/green_tea.html">Green Tea</a>
-      <a href="pages/black_tea.html">Black Tea</a>
-      <a href="pages/white_tea.html">White Tea</a>
-      <a href="pages/oolong_tea.html">Oolong Tea</a>
-      <a href="pages/pu-erh_tea.html">Pu-erh</a>
+      <a href="pages/green_tea.html" class="navPart">Green Tea</a>
+      <a href="pages/black_tea.html" class="navPart">Black Tea</a>
+      <a href="pages/white_tea.html" class="navPart">White Tea</a>
+      <a href="pages/oolong_tea.html" class="navPart">Oolong Tea</a>
+      <a href="pages/pu-erh_tea.html" class="navPart">Pu-erh</a>
     </nav>
-
+    <hr />
     <h2>Welcome to my Tea Website</h2>
-    <hr />
-    <div><img src="images/index_image.jpg" height="500px"/></div>
-
+    <div class="container">
+      <section id="indexSections">
+        <div>
+          <h3 id="naslov">What is tea?</h3>
+          <p id="light-shade-part">
+            Tea is an aromatic beverage prepared by pouring hot or boiling water
+            over cured or fresh leaves of Camellia sinensis. After plain water,
+            tea is the most widely consumed drink in the world. There are many
+            different types of tea; some have a cooling, slightly bitter, and
+            astringent flavour, while others have vastly different profiles that
+            include sweet, nutty, floral, or grassy notes. Tea has a stimulating
+            effect in humans primarily due to its caffeine content.
+          </p>
+        </div>
+      </section>
+      <div><img src="images/index_image.jpg" id="indexImage" /></div>
+    </div>
     <section>
-      <h3>What is tea?</h3>
-      <p>
-        Tea is an aromatic beverage prepared by pouring hot or boiling water
-        over cured or fresh leaves of Camellia sinensis. After plain water, tea
-        is the most widely consumed drink in the world. There are many different
-        types of tea; some have a cooling, slightly bitter, and astringent
-        flavour, while others have vastly different profiles that include sweet,
-        nutty, floral, or grassy notes. Tea has a stimulating effect in humans
-        primarily due to its caffeine content.
-      </p>
-    </section>
-
-    <section>
-      <h3>History</h3>
-      <p>
-        People in ancient East Asia ate tea for centuries, perhaps even
-        millennia, before ever consuming it as a beverage. They would nibble on
-        the leaves raw, add them to soups or greens, or ferment them and chew it
-        like how betel is chewed. An early credible record of tea drinking dates
-        to the third century AD, in a medical text written by Chinese physician
-        Hua Tuo. It was popularised as a recreational drink during the Chinese
-        Tang dynasty, and tea drinking subsequently spread to other East Asian
-        countries. Portuguese priests and merchants introduced it to Europe
-        during the 16th century. During the 17th century, drinking tea became
-        fashionable among the English, who started to plant tea on a large scale
-        in British India.
-      </p>
+      <div>
+        <h3 id="naslov">History</h3>
+        <p id="light-shade-part">
+          People in ancient East Asia ate tea for centuries, perhaps even
+          millennia, before ever consuming it as a beverage. They would nibble
+          on the leaves raw, add them to soups or greens, or ferment them and
+          chew it like how betel is chewed. An early credible record of tea
+          drinking dates to the third century AD, in a medical text written by
+          Chinese physician Hua Tuo. It was popularised as a recreational drink
+          during the Chinese Tang dynasty, and tea drinking subsequently spread
+          to other East Asian countries. Portuguese priests and merchants
+          introduced it to Europe during the 16th century. During the 17th
+          century, drinking tea became fashionable among the English, who
+          started to plant tea on a large scale in British India.
+        </p>
+      </div>
     </section>
     <hr />
-    <footer>
-      <p>
+    <footer id="indexCenter">
+      <p >
         If you would like to contact us about anything regarding the info on
         this site you can do so via e-mail on <b>leo.svjetlicic@gmail.com</b>
       </p>
