@@ -43,6 +43,7 @@ img {
 nav {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 a {
@@ -63,7 +64,7 @@ hr {
   background-color: #8bb964;
   border-radius: 10px;
   margin-bottom: 5px;
-  margin-right: 50px;
+  margin-right: 3vmax;
   color: #0b390a;
 }
 .navPart:hover {
@@ -75,7 +76,7 @@ hr {
   background-color: #8bb964;
   border-radius: 10px;
   margin-bottom: 5px;
-  margin-right: 50px;
+  margin-right: 3vmax;
   color: #000;
 }
 #subpageSection1 {
