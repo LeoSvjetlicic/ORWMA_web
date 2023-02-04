@@ -44,6 +44,8 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: #8bb964;
+  border-radius: 10px;
 }
 
 a {
@@ -60,20 +62,19 @@ hr {
 
 .navPart {
   padding: 10px;
-  margin-top: 0%;
-  background-color: #8bb964;
+  margin-top: 5px;
   border-radius: 10px;
   margin-bottom: 5px;
   margin-right: 3vmax;
   color: #0b390a;
 }
 .navPart:hover {
-  box-shadow: #0b390a 0px 30px 60px -12px inset,
+  box-shadow: #759b54 0px 30px 60px -12px inset,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 #navPartClicked {
   padding: 10px;
-  background-color: #8bb964;
+  margin-top: 5px;
   border-radius: 10px;
   margin-bottom: 5px;
   margin-right: 3vmax;
